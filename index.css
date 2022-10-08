@@ -22,7 +22,7 @@ body {
     font-size: 1.125rem;
     background-image: url('../images/bg-pattern-bottom.svg'),
     url('../images/bg-pattern-top.svg');
-    background-position: left 48vw top 48vh, right 50vw bottom 38vh;
+    background-position: left 44vw top 40vh, right 50vw bottom 37vh;
     background-repeat: no-repeat;
     background-color: var(--clr-background);
     min-height: 100vh;
@@ -41,7 +41,7 @@ ul {
 
 h1, span {
     color: var(--clr-text-dark);
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -83,11 +83,6 @@ h2, p, li {
     transform: translateY(-75%);
 }
 
-.container .profile p {
-    font-size: 0.875rem;
-    margin-top: 0.5rem;
-}
-
 .container .profile h1 span {
     padding-left: 0.5rem;
 }
@@ -95,6 +90,11 @@ h2, p, li {
 .container .profile span {
     color: var(--clr-text-light);
     font-weight: 400;
+}
+
+.container .profile p {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
 }
 
 .container .stats {
@@ -117,7 +117,6 @@ h2, p, li {
 }
 
 .container .stats span {
-    font-size: 1rem;
     margin-bottom: 0.25rem;
 }
 
@@ -135,6 +134,11 @@ h2, p, li {
 }
 
 @media (min-width: 400px) {
+
+    body {
+      background-position: left 48vw top 50vh, right 52vw bottom 37vh;
+    }
+
     .container {
       width: 22rem;
       height: 23.5rem;
